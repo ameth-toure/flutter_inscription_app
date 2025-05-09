@@ -1,0 +1,45 @@
+### Lister toutes les inscriptions
+GET http://localhost:3000/inscription
+Content-Type: application/json
+
+###
+
+### Filtrer par classe (ex: L1 MAE)
+GET http://localhost:3000/inscription?classe=L1 MAE
+Content-Type: application/json
+
+###
+
+### Ajouter une inscription
+POST http://localhost:3000/inscription
+Content-Type: application/json
+
+{
+  "id": 1,
+  "nom": "Fall",
+  "prenom": "Aminata",
+  "classe": "L1 MAE",
+  "matricule": "MAE2025-001",
+  "email": "aminata.fall@example.com"
+}
+
+###
+
+### Modifier une inscription
+PUT http://localhost:3000/inscription/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "nom": "Fall",
+  "prenom": "Aminata",
+  "classe": "L1 MAE",
+  "matricule": "MAE2025-001",
+  "email": "aminata.fall@update.com"
+}
+
+###
+
+### Supprimer une inscription
+DELETE http://localhost:3000/inscription/1
+Content-Type: application/json

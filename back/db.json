@@ -1,0 +1,37 @@
+{
+    "inscription": [
+      {
+        "id": 1,
+        "nom": "Fall",
+        "prenom": "Aminata",
+        "classe": "L1 MAE",
+        "matricule": "MAE2025-001",
+        "email": "aminata.fall@example.com"
+      },
+      {
+        "id": 2,
+        "nom": "Sow",
+        "prenom": "Ibrahima",
+        "classe": "L1 MAE",
+        "matricule": "MAE2025-002",
+        "email": "ibrahima.sow@example.com"
+      },
+      {
+        "id": 3,
+        "nom": "Ba",
+        "prenom": "Mame Diarra",
+        "classe": "L2 INFO",
+        "matricule": "INFO2025-001",
+        "email": "mame.ba@example.com"
+      },
+      {
+        "id": 4,
+        "nom": "Ndiaye",
+        "prenom": "Ousmane",
+        "classe": "L3 INFO",
+        "matricule": "INFO2025-002",
+        "email": "ousmane.ndiaye@example.com"
+      }
+    ]
+  }
+  
